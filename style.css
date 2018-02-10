@@ -1,14 +1,46 @@
+body{
+    width: 600pt;
+    display: block;
+    margin: 0 auto;
+
+}
+#logo {
+
+    margin-top: 10pt;
+}
+
+#food {
+    display: inline;
+    position: absolute;
+    top: -9pt;
+}
+
+#smfood{
+    display: inline;
+    position: absolute;
+    top: 16pt;
+}
 
 #imgHead {
-    display: flex;
-    flex-direction: row-reverse;
-   vertical-align:;
+    display: inline;
+    position: absolute;
+    top: 10pt;
+    right: 415pt;
     
-    }
+}
 
 hr{
-    height: 10pt;
-    color:rgb(179, 179, 179);
-    background-color:rgb(179, 179, 179);
+    height: 8pt;
+    color:rgb(207, 203, 203);
+    background-color:rgb(207, 203, 203);
     border: none;
+    margin-top:40pt;
+}
+
+h2 {
+    margin-top: 40pt;
+}
+
+h4 {
+    color: rgb(207, 203, 203);
 }
